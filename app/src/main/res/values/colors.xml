@@ -3,5 +3,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="mio">#FFFFFFFF</color>
+    <color name="moneda">#FFFFFFFF</color>
     <color name="encabezado">#94BFE2</color>
 </resources>

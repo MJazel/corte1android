@@ -16,7 +16,7 @@
             android:name=".monedasActivity"
             android:exported="false" />
         <activity
-            android:name=".menuActivity"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".convertidorgrados"
@@ -25,7 +25,7 @@
             android:name=".imcActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".menuActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

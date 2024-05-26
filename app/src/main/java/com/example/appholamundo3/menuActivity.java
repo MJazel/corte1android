@@ -49,13 +49,13 @@ public class menuActivity extends AppCompatActivity {
             }
         });
 
-//        crvCambio.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(menuActivity.this,monedasActivity.class);
-//                startActivity(intent);
-//            }
-//        });
+        crvCambio.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(menuActivity.this,monedasActivity.class);
+                startActivity(intent);
+            }
+        });
 
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {

@@ -59,18 +59,21 @@
             android:id="@+id/btnCalcular"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/white"
             android:text="Calcular"></Button>
 
         <Button
             android:id="@+id/btnLimpiar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/white"
             android:text="Limpiar"></Button>
 
         <Button
             android:id="@+id/btnCerrar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/white"
             android:text="Cerrar"></Button>
 
     </LinearLayout>

@@ -71,6 +71,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#87AAC6"
+                android:textColor="@color/white"
                 android:text="Calcular"></Button>
 
             <Button
@@ -78,6 +79,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#86A9C5"
+                android:textColor="@color/white"
                 android:text="Limpiar"></Button>
 
             <Button
@@ -85,6 +87,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#85A8C4"
+                android:textColor="@color/white"
                 android:text="Cerrar"></Button>
         </LinearLayout>
 
