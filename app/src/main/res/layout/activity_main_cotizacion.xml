@@ -51,7 +51,25 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
-            android:text="IR A COTIZACIÓN"
+            android:text="Cotización"
+            android:backgroundTint="@color/red"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/btnLimpiar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Limpiar"
+            android:backgroundTint="@color/red"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/btnCerrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Cerrar"
             android:backgroundTint="@color/red"
             android:layout_marginTop="16dp"/>
     </LinearLayout>

@@ -70,6 +70,14 @@ public class menuActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        crvSpinner.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(menuActivity.this, SpinnerPersonalizado.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
     public void iniciarComponentes(){
